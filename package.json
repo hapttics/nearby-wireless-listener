@@ -1,0 +1,26 @@
+{
+  "name": "hapttics-nearbywl",
+  "version": "0.1.0",
+  "description": "WiFi probe listener using a Raspberry Pi and a WiFi adapter in monitor mode. Collected data is sent to a cloud service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapttics/nearby-wireless-listener.git"
+  },
+  "keywords": [
+    "hapttics",
+    "wifi",
+    "probe",
+    "retail",
+    "analytics"
+  ],
+  "author": "Miguel Ballesteros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hapttics/nearby-wireless-listener/issues"
+  },
+  "homepage": "https://github.com/hapttics/nearby-wireless-listener#readme"
+}
