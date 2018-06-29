@@ -37,11 +37,8 @@ var child = spawn("stdbuf", args);
 child.stdout.on('data', function(buf) {
 	var bufline = String(buf);
 	var buftoks = bufline.split('\n')
-	// TODO: A buffer instance may contain one or more lines. At this point this has to be recognized and nest
-	//       all below actions to process each separately.
 	buftoks.forEach(wLineItem => {
             if(wLineItem != "") {
-                // console.log("[INF] [RAW] " + wLineItem);
                 var bufvalues = wLineItem.split(",");
                 var logentry = {};
                 if(bufvalues.length == 9) {
